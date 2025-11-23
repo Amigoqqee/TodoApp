@@ -1,21 +1,58 @@
-.env
-node_modules
 
-*.o
-*.a
+todo-app
+*.exe
+*.exe~
+*.dll
 *.so
+*.dylib
 
-_obj
-_test
-vendor/
+/go.mod
+/go.sum
+/go.work
+/go.work.sum
+/bin/
+/pkg/
+/tmp/
 
 *.log
 
-*.exe
-*.out
+.env
+.env.local
+.env.*.local
 
 .DS_Store
+._*
+.AppleDouble
+.LSOverride
+Icon
 
-/bin/
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
 
-*.out
+
+*.iCloud
+
+
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+tmp/
+air.tmp
+
+data/
+mongodump/
+
+*.bak
+*.tmp
+*.swp
+*.swo
