@@ -6,9 +6,9 @@ import (
 
 	"github.com/gofiber/fiber/v3"
 	"github.com/joho/godotenv"
-	"GoAndReact/config"
-	"GoAndReact/internal/database"
-	"GoAndReact/internal/routes"
+	"GoAndReact/back/config"
+	"GoAndReact/back/internal/database"
+	"GoAndReact/back/internal/routes"
 )
 
 func main() {

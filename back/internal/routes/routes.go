@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"GoAndReact/internal/handlers"
+	"GoAndReact/back/internal/handlers"
 
 	"github.com/gofiber/fiber/v3"
 )

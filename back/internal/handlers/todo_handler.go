@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"context"
-	"GoAndReact/internal/database"
-	"GoAndReact/internal/models"
+	"GoAndReact/back/internal/database"
+	"GoAndReact/back/internal/models"
 
 	"github.com/gofiber/fiber/v3"
 	"go.mongodb.org/mongo-driver/bson"
